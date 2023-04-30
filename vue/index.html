@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Practice</title>
+    <link rel="icon" href="data:;base64,=">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body class="container mt-5">
+    <div id="app">
+        <h1>Welcome to Vue Front End</h1> 
+        <div id="control-panel">
+          <button @click="loadPage" type="button" style="color: #FFFFFF; background-color: #04AA6D; border-radius: 5px; font-size: 17px; padding: 6px 18px; margin-bottom: 16px">Load</button>
+        </div>
+        <div id="html-wrapper">
+            <div ref="styles"></div>
+            <div v-html="contents" ></div> 
+            <div ref="scripts"></div>
+        </div>           
+    </div>
+  </body>
+</html>

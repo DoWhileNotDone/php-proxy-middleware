@@ -1,0 +1,17 @@
+{
+    "name": "dowhilenotdone/php",
+    "autoload": {
+        "psr-4": {
+            "Dowhilenotdone\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DoWhileNotDone",
+            "email": "dowhilenotdone@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}

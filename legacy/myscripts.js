@@ -1,0 +1,1 @@
+console.log("This is an script file from legacy.");
